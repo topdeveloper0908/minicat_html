@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&family=Anton&family=Mukta:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>BlackStudios</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css">
+    <link rel="stylesheet" href="./assets/styles/output.css" />
+    <link rel="stylesheet" href="./assets/styles/base.css" />
+    <link rel="stylesheet" href="./assets/styles/standorte.css" />
+
+  </head>
+
+  <body class="homepage">
+    <main>
+      <header class="header">
+        <div class="header-wrapper" id="myHeader-wrapper">
+          <div id="myHeader">
+            <div class="container">
+              <div class="flex items-center justify-between">
+                <div class="header-left md:py-8">
+                  <a href="index.html">
+                    <img class="lozad md:block hidden" data-src="./assets/imgs/home/logo.png" >
+                    <img class="lozad md:hidden" data-src="./assets/imgs/home/logo1.png" >
+                  </a>
+                </div>
+                <div class="header-right relative md:pt-3 md:mt-px">
+                  <button class="header-menu-toggle md:hidden d-block py-5 my-1"><i class="fa fa-bars text-primary text-2xl leading-6 font-black"></i></button>
+                  <div class="header-menu font-ave flex md:flex-row flex-col top-full right-0 items-center md:relative absolute z-10 bg-white md:p-0 p-6 md:rounded-none rounded-2xl">
+                    <ul class="flex md:flex-row flex-col text-xl">
+                      <li class="text-primary md:mb-0 mb-4 mr-8 cursor-pointer"><a class="hover:underline" href="#">Speisekarte</a></li>
+                      <li class="text-primary md:mb-0 mb-4 mr-8 cursor-pointer"><a class="hover:underline" href="#">Produkte</a></li>
+                      <li class="text-primary mr-12 cursor-pointer"><a class="hover:underline" href="#">Über uns</a></li>
+                    </ul>
+                    <a href="#" class="block btn-default bg-primary text-white rounded-full md:mt-0 mt-4">Standorte</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="home-section">
+        <div class="container">
+          <div class="flex md:flex-row flex-col justify-between items-center">
+            <div class="md:-order-none order-2 md:text-left text-center">
+              <h2 class="section-title text-primary font-bold text-54 leading-64.8 text-bold md:mb-11 mb-6 mt-4">Standorte</h2>
+              <p class="text-xl lg:max-w-lg md:max-w-xs leading-8">Lobortis in ac in rhoncus amet risus elementum. Vulputate commodo donec a faucibus nisl sed mi quis. Laoreet varius in bibendum egestas viverra nisi.</p>
+            </div>
+            <figure class="mr-8">
+              <img class="lozad" data-src="./assets/imgs/standorte/house.png" alt="banner" />
+            </figure>
+          </div>
+        </div>
+      </section>
+      
+      <section class="form-section md:mb-16 mb-12">
+        <div class="container">
+          <div class="form mx-auto bg-primary sm:px-12 px-4 rounded-3xl relative z-10">
+            <h2 class="text-white font-ave text-xl font-bold mb-0 pt-8 pb-1 -tracking-tighter">128x in Österreich.</h2>
+            <p class="text-white font-ave text-xl leading-8 mb-4 tracking-normal">Geben Sie Ihre Adresse ein, und wir finden die nähesten Standorte.</p>
+            <div class="flex sm:flex-row flex-col sm:pb-12 pb-6">
+              <form class="relative flex-1 sm:mr-6">
+                <input type="text" class="h-14 px-6 rounded-lg font-bold md:text-base text-sm w-full" placeholder="Promenade 25b, 4020 Linz">
+                <i class="fa fa-close content-['\f099'] absolute right-6 top-1/2 text-xl -translate-y-1/2 z-10 " aria-hidden="true"></i>
+              </form>
+              <button class="flex justify-center bg-yellow btn-default text-dark rounded-full pr-7 items-center sm:mt-0 mt-6">
+                <i class="fa fa-search text-2xl my-4 ml-7 pr-4 leading-6"></i>Suchen
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="googleMap" class="md:mb-20 mb-8" style="width:100%;"></div>
+      <section class="pt-4 section-gap">
+        <div class="container">
+          <h2 class="section-title text-primary text-5xl font-bold">Alle Standorte</h2> 
+          <h4 class=" text-primary text-2xl font-ave md:pt-11 pt-6 mb-7">Oberösterreich</h4> 
+          <table class="font-ave text-dark text-base leading-25.6">
+            <thead>
+              <tr>
+                <th style="width:23.66%"></th>
+                <th style="width:36.06%"></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>4020 Linz</td>
+                <td>Musterstraße 128</td>
+                <td>Im Eingangsbereich des XXX Gebäudes</td>
+              </tr>
+              <tr>
+                <td>4020 Linz</td>
+                <td>Musterstraße 128</td>
+                <td>Im Eingangsbereich des XXX Gebäudes</td>
+              </tr>
+              <tr>
+                <td>4020 Linz</td>
+                <td>Musterstraße 128</td>
+                <td>Im Eingangsbereich des XXX Gebäudes</td>
+              </tr>
+              <tr>
+                <td>4020 Linz</td>
+                <td>Musterstraße 128</td>
+                <td>Im Eingangsbereich des XXX Gebäudes</td>
+              </tr>
+              <tr>
+                <td>4020 Linz</td>
+                <td>Musterstraße 128</td>
+                <td>Im Eingangsbereich des XXX Gebäudes</td>
+              </tr>
+              <tr>
+                <td>4020 Linz</td>
+                <td>Musterstraße 128</td>
+                <td>Im Eingangsbereich des XXX Gebäudes</td>
+              </tr>
+              <tr>
+                <td>4020 Linz</td>
+                <td>Musterstraße 128</td>
+                <td>Im Eingangsbereich des XXX Gebäudes</td>
+              </tr>
+              <tr>
+                <td>4020 Linz</td>
+                <td>Musterstraße 128</td>
+                <td>Im Eingangsbereich des XXX Gebäudes</td>
+              </tr>
+            </tbody>
+          </table>
+          <h4 class=" text-primary text-2xl pt-14 font-ave mb-7">Niederösterreich</h4> 
+          <table class="font-ave text-dark text-base leading-25.6">
+            <thead>
+              <tr>
+                <th style="width:23.66%"></th>
+                <th style="width:36.06%"></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>4020 Linz</td>
+                <td>Musterstraße 128</td>
+                <td>Im Eingangsbereich des XXX Gebäudes</td>
+              </tr>
+              <tr>
+                <td>4020 Linz</td>
+                <td>Musterstraße 128</td>
+                <td>Im Eingangsbereich des XXX Gebäudes</td>
+              </tr>
+              <tr>
+                <td>4020 Linz</td>
+                <td>Musterstraße 128</td>
+                <td>Im Eingangsbereich des XXX Gebäudes</td>
+              </tr>
+              <tr>
+                <td>4020 Linz</td>
+                <td>Musterstraße 128</td>
+                <td>Im Eingangsbereich des XXX Gebäudes</td>
+              </tr>
+              <tr>
+                <td>4020 Linz</td>
+                <td>Musterstraße 128</td>
+                <td>Im Eingangsbereich des XXX Gebäudes</td>
+              </tr>
+              <tr>
+                <td>4020 Linz</td>
+                <td>Musterstraße 128</td>
+                <td>Im Eingangsbereich des XXX Gebäudes</td>
+              </tr>
+              <tr>
+                <td>4020 Linz</td>
+                <td>Musterstraße 128</td>
+                <td>Im Eingangsbereich des XXX Gebäudes</td>
+              </tr>
+              <tr>
+                <td>4020 Linz</td>
+                <td>Musterstraße 128</td>
+                <td>Im Eingangsbereich des XXX Gebäudes</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      
+      <section class="banner-section section-gap md:pt-0 pt-6 md:pb-0 pb-4">
+        <div class="container-fluid">
+          <div class="relative">
+            <img class="lozad absolute w-full h-full rounded-3xl" src="./assets/imgs/home/banner.png" alt="banner" />
+            <div class="content max-w-5xl relative">
+              <h2 class="text-white font-bold md:text-54 text-3xl md:leading-64.8 leading-9 md:pb-6 pb-1 mb-9">Melde dich bei unserem  Newsletter an, und erhalte einen € 10 Gutschein.</h2>
+              <form>
+                <input type="text" class="px-6 rounded-lg mr-4 md:mb-0 mb-6 text-ave" placeholder="E-Mail Adresse">
+                <button class="btn-default text-xl text-white bg-primary rounded-full sm:w-auto w-full">Anmelden</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer bg-primary text-white" id="footer">
+      <div class="container-fluid">
+        <div class="grid grid-flex-row md:grid-cols-4 sm:grid-cols-2 xs:gap-10 gap-6">
+          <div class="text-ave">
+            <a href="index.html">
+              <figure class="img-wrapper mb-6">
+                <img class="lozad" src="./assets/imgs/home/footer-logo.png" alt="logo" />
+              </figure>
+            </a>
+            <h4 class="font-bold text-sm leading-4">mini Cantini GmbH</h4>
+            <span class="text-sm leading-4">Streetname 124/86 </br>
+              1010 Vienna, Austria</span>
+          </div>
+          <div class="text-base ">
+            <ul>
+              <li class="font-bold mb-2 md:mb-4">Lorem ipsum dolor</li>
+              <li class="md:mb-2"><a href="#">Vitae dolor congue</a></li>
+              <li class="md:mb-2"><a href="#">Tincidunt pretium</a></li>
+              <li class="md:mb-2"><a href="#">Vivamus a risus.</a></li>
+              <li class="md:mb-2"><a href="#">Viverra diam</a></li>
+              <li class="md:mb-2"><a href="#">Elementum</a></li>
+            </ul>
+          </div>
+          <div class="text-base ">
+            <ul>
+              <li class="font-bold mb-2 md:mb-4">Lorem ipsum dolor</li>
+              <li class="md:mb-2"><a href="#">Vitae dolor congue</a></li>
+              <li class="md:mb-2"><a href="#">Tincidunt pretium</a></li>
+              <li class="md:mb-2"><a href="#">Vivamus a risus.</a></li>
+              <li class="md:mb-2"><a href="#">Viverra diam</a></li>
+              <li class="md:mb-2"><a href="#">Vivamus a risus.</a></li>
+              <li class="md:mb-2"><a href="#">Elementum</a></li>
+            </ul>
+          </div>
+          <div class="text-base ">
+            <h5 class="font-bold mb-2">Find us on</h5>
+            <ul class="text-2xl flex">
+              <li class="mr-4"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+              <li class="mr-4"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li class="mr-2"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+    defer
+    ></script> 
+    <script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script>
+      function initMap() {
+          // The location of Uluru
+          const uluru = { lat: -25.344, lng: 131.031 };
+          // The map, centered at Uluru
+          const map = new google.maps.Map(document.getElementById("googleMap"), {
+            zoom: 4,
+            center: uluru,
+          });
+          // The marker, positioned at Uluru
+          const marker = new google.maps.Marker({
+            position: uluru,
+            map: map,
+          });
+      }
+      initMap();
+    </script>
+  </body>
+</html>

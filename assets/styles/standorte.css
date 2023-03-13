@@ -1,0 +1,91 @@
+.home-section {
+  margin-top: -3.5rem;
+}
+.form-section .form {
+  margin-top: -18px;
+}
+.form-section button {
+  font-size: 18px;
+}
+.form-section input {
+  min-height: 56px;
+  padding-bottom: 0.2rem;
+  font-weight: 800;
+}
+.form-section input::placeholder {
+  color: #222;
+}
+.form-section .form button {
+  padding: 0 28px 0 0;
+}
+table {
+  max-width: 1040px;
+  width: 100%;
+}
+tbody tr {
+  border-bottom: 1px solid #95c11e;
+}
+table td {
+  padding: 11.5px 0 11.5px 16px;
+}
+
+table tr td:last-child {
+  color: rgba(98, 98, 98, 0.7);
+}
+
+.banner-section .content{
+  padding: 128px 135px;
+}
+.banner-section button {
+  padding: 18px 28px;
+  font-size: 18px;
+}
+.banner-section input {
+  width: 400px;
+  height: 56px;
+}
+
+#googleMap {
+  height: 680px;
+}
+@media (max-width: 991px) {
+  .banner-section .content {
+    padding: 60px;
+  }
+  .home-section {
+    margin-top: 0;
+  }
+}
+@media (max-width: 767px) {  
+  .form-section .form {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 575px) {
+  .banner-section .content {
+    padding: 70px 8px;
+  }
+  .banner-section form {
+    padding: 10px;
+  }
+  .banner-section input {
+    width: 100%;
+  }
+  #googleMap {
+    height: 370px;
+  }
+  th {
+    width: 100%;
+  } 
+  table tr {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 14px;
+  }
+  table td {
+    padding: 0;
+  }
+  table thead {
+    display: none;
+  }
+}

@@ -1,0 +1,102 @@
+/* Layout */
+@font-face {
+  font-family: 'Avenir';
+  src: url("./../font/avenir/AvenirNextLTPro-Bold.otf") format('truetype');
+  src: url("./../font/avenir/AvenirNextLTPro-It.otf") format('truetype');
+  src: url("./../font/avenir/AvenirNextLTPro-Regular.otf") format('truetype');
+}
+
+.container {
+    margin: auto;
+    max-width: 1358px;
+    padding: 0 24px;
+  }
+  .container-fluid {
+    margin: auto;
+    max-width: 1628px;
+    padding: 0 24px;
+  }
+  
+  img {
+    object-fit: cover;
+  }
+  ul {
+    list-style: none;
+  }
+  button,
+  input {
+    outline: 0 !important;
+  }
+  .footer {
+    padding: 97px 0 90px;
+  }
+  .footer a {
+    line-height: 26px;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  .sticky-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 2px 2px 6px rgb(0 0 0 / 20%);
+    z-index: 100;
+    animation: fixedTop .4s;
+  }
+  @keyframes fixedTop {
+    from {
+      transform: translateY(-100%);
+      transform-origin: center top 0px;
+    }
+  
+    to {
+      transform: translateY(0);
+    }
+  }
+  p {
+    letter-spacing: 0.25px;
+  }
+  .header .container {
+    max-width: 1628px;
+    padding: 0 24px;
+  }
+  .section-gap {
+    margin-bottom: 128px;
+  }
+  @media (max-width: 767px) {
+  .section-gap {
+    margin-bottom: 48px;
+  }
+  section h2.section-title {
+    font-size: 26px;
+    line-height: 31.2px;
+  }
+  .footer {
+    padding: 32px 0;
+  }
+  .footer a {
+    font-size: 14px;
+    line-height: 22.4px;
+  }
+  
+  .header-menu {
+    box-shadow: 2px 2px 6px rgb(0 0 0 / 20%);  
+    display: none;
+  }
+  .header-menu-toggle:hover + .header-menu {
+    display: block;
+  }
+  .header-menu:hover {
+    display: block;
+  }
+  .footer .container-fluid {
+    padding: 0 50px;
+  }
+  .btn-outline {
+    font-size: 14px;
+    padding: 11.5px 20px;
+    line-height: 16.8px;
+  }
+}

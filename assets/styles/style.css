@@ -1,0 +1,250 @@
+.intro-section h3 {
+  padding-top: 51px;
+  padding-bottom: 52px;
+  line-height: 51.2px;
+}
+.intro-section img{
+  min-height: 452px;
+  width: 100%;
+}
+.form-section form {
+  max-width: 1310px;
+  margin-top: -128px;
+}
+.form-section button {
+  font-size: 18px;
+}
+.form-section input {
+  min-height: 56px;
+}
+.form-section form button {
+  padding: 0 28px 0 0;
+}
+.uber-section {
+  margin-top: 240px;
+}
+.uber-section h2 {
+  margin-top: -31px;
+}
+.uber-section .img-wrapper {
+  margin-top: -183px;
+}
+.frish-section h2 {
+  font-size: 42px;
+  line-height: 50.4px;
+}
+.frish-section p {
+  line-height: 25.6px;
+}
+.das-section h2 {
+  margin-bottom: 81px;
+  line-height: 57.6px;
+}
+.das-section img {
+  transition: transform .3s;
+ }
+.das-section .product-name {
+  position: absolute;
+  top: 0;
+  left: -1px;
+  width: 260px;
+  padding: 13px 0 18px 26px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  background-color: #fff;
+  color: #95c11e;
+  opacity: 0.9;
+  border-radius: 22px 0 22px 0;
+  border: none;
+}
+.das-section button {
+  position: absolute;
+  left: auto;
+  top: auto;
+  bottom: 0;
+  right: -1px;
+  padding: 17px 17px 8px 16px;
+  line-height: 28.8px;
+  background-color: #fff;
+  color: #95c11e;
+  opacity: 0.9;
+  border-radius: 25px 0 25px 0;
+  border: none;
+  transition: all .3s;
+}
+.das-section button svg {
+  font-weight: 900;
+  line-height: 100%;
+  width: 28px;
+  height: 28px;
+}
+.das-section img:hover {
+  transform: scale(1.1);
+}
+.das-section button:hover {
+  color: white;
+  background-color: #95c11e;
+}
+.banner-section .content{
+  padding: 128px 135px;
+}
+.banner-section button {
+  padding: 18px 28px;
+  font-size: 18px;
+}
+.banner-section input {
+  width: 400px;
+  height: 56px;
+}
+.quote-wrapper {
+  height: 100%;
+  padding: 2.2rem 2.3rem;
+}
+.quote-wrapper img {
+  width: 64px;
+  margin: 0 auto;
+}
+.quote-wrapper .quote-img {
+  width: 48px;
+}
+.quote-wrapper p {
+  line-height: 25.6px;
+  margin-bottom: 29px;
+  margin-top: 1.25rem;
+  letter-spacing: 0;
+  flex: 1;
+}
+.quote-wrapper span {
+  line-height: 22.4px;
+  color: rgba(98, 98, 98, .7);
+}
+.unser-section h2 {
+  margin-bottom: 70px;
+}
+.unser-section .btn-outline {
+  line-height: 19.2px;
+}
+
+.swiper {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+.swiper-slide {
+  overflow: hidden;
+  border-radius: 23px;
+  height: auto;
+}
+.swiper-nav-out .swiper-wrapper {
+  padding-bottom: 6rem;
+}
+.swiper-nav-out .swiper-button-prev,
+.swiper-nav-out .swiper-button-next {
+  top: auto;
+  bottom: 3px;  
+  border-radius: 50%;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  content: none;
+}
+.swiper-button-next svg,
+.swiper-button-prev svg {
+  font-size: 20px;
+  font-weight: 900;
+  width: 19px;
+  height: 19px;
+  padding: 15px 16px;
+  border-radius: 50%;
+  color: white;
+  background-color: #95c11e;
+}
+.swiper-button-next {
+  right: 46.9%;
+  left: auto;
+}
+.swiper-button-prev {
+  left: 46.9%;
+}
+@media (max-width: 1499px) {
+  .form-section form {
+      margin-top: -64px;
+  }
+  .swiper-button-next {
+    right: 45.5%;
+  }
+  .swiper-button-prev {
+    left: 45.5%;
+  }
+}
+@media (max-width: 991px) {
+  .banner-section .content {
+    padding: 60px;
+  }
+  .swiper-button-next {
+    right: 43.5%;
+  }
+  .swiper-button-prev {
+    left: 43.5%;
+  }
+}
+@media (min-width: 767px) {
+  .uber-section .img-wrapper {
+    margin-top: -209px;
+    min-height: 42rem;
+  }
+}
+@media (max-width: 767px) {
+  .intro-section h3 {
+      padding: 25px 9px 25px 19px;
+      line-height: 25.6px;
+  }
+  .das-section h2 {
+    margin-bottom: 22px;
+  }
+  .das-section .product-name {
+    padding: 13px 0 8.76px 23.36px;
+  }
+  .unser-section h2 {
+    margin-bottom: 22px;
+    font-size: 28px;
+  }
+  .unser-section .btn-outline {
+    padding: 11.5px 20px;
+  }
+  .swiper-button-next {
+    right: 41.5%;
+  }
+  .swiper-button-prev {
+    left: 41.5%;
+  }
+}
+@media (max-width: 667px) {
+  .swiper-button-next {
+    right: 38%;
+  }
+  .swiper-button-prev {
+    left: 38%;
+  }
+}
+@media (max-width: 575px) {
+  .banner-section .content {
+    padding: 70px 8px;
+  }
+  .banner-section form {
+    padding: 10px;
+  }
+  .banner-section input {
+    width: 100%;
+  }
+  .swiper-button-next {
+    right: 34.5%;
+  }
+  .swiper-button-prev {
+    left: 34.5%;
+  }
+  .swiper-nav-out .swiper-wrapper {
+    padding-bottom: 5rem;
+  }
+}

@@ -1,0 +1,69 @@
+section img {
+  margin: auto;
+  width: 100%;
+}
+section .btn-outline {
+  line-height: 19.5px;
+}
+.menu-section {
+  margin-bottom: 281px;
+}
+.menu-section img {
+  min-height: 264px;
+}
+.menu-section ul {
+  overflow-x: scroll;
+}
+.menu-section ul::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 2px;
+  height: 3px;
+}
+.menu-section ul::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .1);
+  box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+.three-section img {
+  width: auto;
+}
+.menu-section a {
+  white-space: nowrap;
+  letter-spacing: 0.8px;
+  font-family: 'Avenir';
+}
+.banner-section .content{
+  padding: 128px 135px;
+}
+.banner-section button {
+  padding: 18px 28px;
+  font-size: 18px;
+}
+.banner-section input {
+  width: 400px;
+  height: 56px;
+}
+@media (max-width: 991px) {
+  .banner-section .content {
+    padding: 60px;
+  }
+}
+@media (max-width: 767px) {
+  .menu-section {
+    margin-bottom: 64px;
+  }
+  .section-gap {
+    margin-bottom: 48px;
+  }
+}
+@media (max-width: 575px) {
+  .banner-section .content {
+    padding: 70px 8px;
+  }
+  .banner-section form {
+    padding: 10px;
+  }
+  .banner-section input {
+    width: 100%;
+  }
+}

@@ -1,0 +1,119 @@
+.crunchy-section h2 {
+  margin-top: -31px;
+}
+.crunchy-section span {
+  font-size: 28px;
+  line-height: 44.8px;
+  font-family: 'Avenir';
+}
+.crunchy-section .btn-default {
+  padding: 17px 28px;
+  font-size: 18px;
+  line-height: 21.6px;
+}
+.crunchy-section .img-wrapper {
+  margin-top: -183px;
+}
+.portion-section {
+  margin-bottom: 222px;
+}
+.frish-section h2 {
+  font-size: 42px;
+  line-height: 50.4px;
+}
+.frish-section p {
+  line-height: 25.6px;
+}
+.banner-section .content{
+  padding: 128px 135px;
+}
+.banner-section button {
+  padding: 18px 28px;
+  font-size: 18px;
+}
+.banner-section input {
+  width: 400px;
+  height: 56px;
+}
+.quote-wrapper {
+  height: 100%;
+}
+.quote-wrapper p {
+  line-height: 25.6px;
+  margin-bottom: 26px;
+}
+.quote-wrapper span {
+  line-height: 22.4px;
+  color: rgba(98, 98, 98, .7);
+}
+.unser-section {
+  margin-bottom: 120px;
+}
+.unser-section h2 {
+  margin-bottom: 70px;
+}
+.faq-section .container {
+  max-width: 1226px;
+}
+.faq-section .question {
+  line-height: 38.4px;
+  padding-left: 4.3rem;
+  max-width: 60rem;
+  font-family: 'Avenir';
+  letter-spacing: 0;
+}
+.faq-section .answer p {
+  border-radius: 3rem 3rem 3rem 0;
+  max-width: 60.5rem;
+}
+.faq-btn {
+  line-height: 19.2px;
+}
+@media (max-width: 991px) {
+  .banner-section .content {
+    padding: 60px;
+  }
+} 
+@media (min-width: 767px) {
+  .crunchy-section .img-wrapper {
+    margin-top: -209px;
+    min-height: 42rem;
+  }
+}
+@media (max-width: 767px) {
+  section .section-title {
+    font-size: 26px;
+    line-height: 31.2px;
+  }
+  .unser-section {
+    margin-bottom: 48px;
+  }
+  .unser-section h2 {
+    margin-bottom: 22px;
+    font-size: 28px;
+  }
+  .unser-section .btn-outline {
+    padding: 11.5px 20px;
+  }
+  .portion-section {
+    margin-bottom: 144px;
+    padding: 0 13px;
+  }
+  .faq-section .question {
+    padding-left: 0;
+  }
+} 
+@media (max-width: 575px) {
+  .banner-section .content {
+    padding: 70px 8px;
+  }
+  .banner-section form {
+    padding: 10px;
+  }
+  .banner-section input {
+    width: 100%;
+  }
+  .faq-section img {
+    width: 48px;
+  }
+}
